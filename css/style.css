@@ -3,6 +3,11 @@ body{
     background-color: #E8F4FF !important;
 }
 
+header{
+    z-index: 1000;
+    background-color: #fff;
+}
+
 header .items a{
     text-decoration: none !important;
     color: #000;
@@ -49,6 +54,60 @@ header nav > :last-child > :last-child a{
     text-decoration: none;
 }
 
+.homePage{
+    position: relative;
+    top: 4rem;
+}
+
+.homePage img{
+    width: 90%;
+    position: relative;
+    bottom: 2vh;
+}
+
+.homePage p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #AEB4B9;
+    letter-spacing: 1px;
+    margin-top: 2rem;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.homePage h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: #000;
+    letter-spacing: 1px;
+    font-size: 4rem;
+}
+
+.homePage > div > :first-child > :last-child{
+    margin-top: 5rem;
+}
+
+.homePage div > :first-child > div > :first-child button{
+    padding: 15px 40px;
+    border: 2px solid #FF7134;
+    background-color: #FF7134;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.homePage div > :first-child > div > :last-child button{
+    padding: 15px 20px;
+    border: 2px solid #FF7134;
+    background-color: transparent;
+    color: #FF7134;
+    border-radius: 50%;
+    margin-left: 50px;
+}
+
+.homePage > div {
+    padding-top: 8rem;
+}
+
 @media screen and (min-width: 1440px){
     header nav .items{
         margin-left: 11rem;
@@ -61,8 +120,10 @@ header nav > :last-child > :last-child a{
     }
     header .items{
         position: absolute;
-        top: 5rem;
+        top: 57px;
         width: 100%;
+        background-color: #fff;
+        left: 0px;
     }
     header .items ul{
         display: flex;
@@ -73,10 +134,15 @@ header nav > :last-child > :last-child a{
 
     header nav > :last-child{
         position: absolute;
-        top: 18rem;
+        top: 16.4rem;
+        left: -6px;
         width: 100%;
+        padding-top: 30px;
+        padding-bottom: 30px;
         justify-content: center;
         margin-left: 10px;
         align-items: center;
+        background-color: #fff;
+
     }
 }
