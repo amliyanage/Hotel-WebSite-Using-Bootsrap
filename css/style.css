@@ -170,4 +170,17 @@ header nav > :last-child > :last-child a{
         flex-direction: column;
         gap: 8rem;
     }
+
+    .aboutPage .card-set{
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+    .aboutPage .card{
+        width: 100% !important;
+    }
+
+    .aboutPage .about-p{
+        width: 90% !important;
+    }
 }
