@@ -109,6 +109,29 @@ header nav > :last-child > :last-child a{
     padding-top: 8rem;
 }
 
+.aboutPage{
+    margin-top: 10rem;
+}
+
+.aboutPage > :last-child{
+
+}
+
+.aboutPage .card-img{
+    width: 100px;
+    height: 100px;
+    background-color: #E8F4FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.aboutPage .card-img img{
+    width: 50%;
+    height: 50%;
+}
+
 @media screen and (min-width: 1440px){
     header nav .items{
         margin-left: 11rem;
