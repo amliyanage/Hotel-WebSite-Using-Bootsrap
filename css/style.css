@@ -128,12 +128,16 @@ header nav > :last-child > :last-child a{
     height: 50%;
 }
 
-#Packages > :last-child button{
-    background-color: #FF7134;
-    color: #fff;
+#Packages > :last-child button , .gallery > :last-child button{
     border: 2px solid #FF7134;
     padding: 10px 20px;
+}
+
+#Packages .btn{
+    background-color: #FF7134;
+    color: #fff;
     border-radius: 5px;
+    border: none;
 }
 
 @media screen and (min-width: 1440px){
