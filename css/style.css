@@ -140,6 +140,14 @@ header nav > :last-child > :last-child a{
     border: none;
 }
 
+.comments img{
+    width: 4%;
+    margin-right: 20px;
+}
+.accordion-item{
+    background-color: #ffbb9e !important;
+}
+
 @media screen and (min-width: 1440px){
     header nav .items{
         margin-left: 11rem;
