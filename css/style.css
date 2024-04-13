@@ -128,12 +128,12 @@ header nav > :last-child > :last-child a{
     height: 50%;
 }
 
-#Packages > :last-child button , .gallery > :last-child button{
+#Packages > :last-child button , .gallery > :last-child button , .blog > :last-child button{
     border: 2px solid #FF7134;
     padding: 10px 20px;
 }
 
-#Packages .btn{
+#Packages .btn , .blog .btn{
     background-color: #FF7134;
     color: #fff;
     border-radius: 5px;
