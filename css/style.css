@@ -141,11 +141,33 @@ header nav > :last-child > :last-child a{
 }
 
 .comments img{
-    width: 4%;
+    width: 4dv0px;
     margin-right: 20px;
 }
 .accordion-item{
     background-color: #ffbb9e !important;
+}
+
+.contact-form {
+    background-color: #ffffff; /* White background for the form area */
+    padding: 2rem;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+  }
+  .contact-info {
+    padding: 2rem;
+  }
+  .contact-info p {
+    margin-bottom: 0.5rem;
+  }
+
+  .contact-info iframe{
+    width: 100%;
+  }
+
+  #contact .my-5 {
+    margin-top: 8rem !important;
+    margin-bottom: 3rem !important;
 }
 
 @media screen and (min-width: 1440px){
