@@ -190,6 +190,17 @@ header nav ul li a{
     margin-bottom: 3rem !important;
 }
 
+footer{
+    background-color: #211f1f;
+    padding: 2rem;
+    color: #fff ;
+}
+
+footer ul li{
+    margin-top: 10px;
+    font-size: 18px;
+}
+
 @media screen and (min-width: 1440px){
     header nav .items{
         margin-left: 11rem;
