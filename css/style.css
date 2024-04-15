@@ -148,6 +148,15 @@ header nav > :last-child > :last-child a{
     background-color: #ffbb9e !important;
 }
 
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: var(--bs-nav-pills-link-active-color);
+    background-color: #ff7134 !important;
+}
+
+header nav ul li a{
+    padding: 5px 10px !important;
+}
+
 .contact-form {
     background-color: #ffffff; /* White background for the form area */
     padding: 2rem;
@@ -191,7 +200,7 @@ header nav > :last-child > :last-child a{
         display: flex;
         text-align: center;
         flex-direction: column !important;
-        gap: 5px !important;
+        gap: 15px !important;
     }
 
     header nav > :last-child{
@@ -226,3 +235,8 @@ header nav > :last-child > :last-child a{
         width: 90% !important;
     }
 }
+
+@media (max-width: 1024px) {
+    #nav_ul {
+        gap: 1rem !important;
+    }
