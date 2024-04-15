@@ -3,6 +3,10 @@ body{
     background-color: #E8F4FF !important;
 }
 
+#mainPane{
+    background-color: #E8F4FF !important;
+}
+
 header{
     z-index: 1000;
     background-color: #E8F4FF;
