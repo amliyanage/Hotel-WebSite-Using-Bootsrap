@@ -48,14 +48,20 @@ header nav > :last-child > button{
 header nav > :last-child > :last-child{
     background-color: #FF7134;
 }
+
 header nav > :last-child > :first-child a{
     color: #000;
     text-decoration: none;
 }
 header nav > :last-child > :last-child a{
-    background-color: #FF7134;
     color: #fff;
     text-decoration: none;
+}
+
+header nav ul li:hover{
+    border-bottom: 2px solid #FF7134;
+    color: #FF7134;
+    transition: 0.1s;
 }
 
 .homePage{
@@ -157,6 +163,15 @@ header nav > :last-child > :last-child a{
 }
 .accordion-item{
     background-color: #ffbb9e !important;
+}
+
+.card{
+    overflow: hidden;
+}
+
+.card:hover img{
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
